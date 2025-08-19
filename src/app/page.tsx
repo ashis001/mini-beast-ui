@@ -168,7 +168,7 @@ export default function Home() {
               Next-Gen Intuitive Data Tool
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg text-slate-300">
-              A Smart AI Secured Data tool that automates migration, reconciliation and testing to minimize human intervention and maximize efficiency
+              A Smart Secured Data tool that automates migration, reconciliation and testing to minimize human intervention and maximize efficiency
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <Button size="lg" className="w-full sm:w-auto bg-emerald-500 hover:bg-emerald-600 text-white border-0 px-8 py-3 text-lg font-semibold" onClick={() => window.open('https://www.dataction.co/contact-us', '_blank')}>
