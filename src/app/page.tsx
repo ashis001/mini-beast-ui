@@ -23,7 +23,7 @@ const Header = () => (
       </nav>
     </div>
     <div className="hidden items-center gap-4 lg:flex">
-      <Button size="sm" className="bg-primary/10 text-primary hover:bg-primary/20" onClick={() => window.open('https://www.dataction.co/contact-us', '_blank')}>
+      <Button size="sm" className="bg-primary/10 text-primary hover:bg-primary/20" onClick={() => window.location.href = '/contact'}>
         Contact Us
       </Button>
     </div>
@@ -39,7 +39,7 @@ const Header = () => (
           <DropdownMenuItem onClick={() => window.location.href = '/platform'}>Platform</DropdownMenuItem>
           <DropdownMenuItem onClick={() => window.location.href = '/teams'}>Teams</DropdownMenuItem>
           <DropdownMenuItem onClick={() => window.location.href = '/docs'}>Docs</DropdownMenuItem>
-          <DropdownMenuItem onClick={() => window.open('https://www.dataction.co/contact-us', '_blank')}>Contact Us</DropdownMenuItem>
+          <DropdownMenuItem onClick={() => window.location.href = '/contact'}>Contact Us</DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
     </div>
