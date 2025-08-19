@@ -49,15 +49,13 @@ const Header = () => (
       <nav className="hidden items-center gap-6 text-sm font-medium lg:flex ml-8">
         <Link href="/" className="text-muted-foreground hover:text-foreground">Home</Link>
         <Link href="/platform" className="text-muted-foreground hover:text-foreground">Platform</Link>
-        <Link href="#" className="text-muted-foreground hover:text-foreground">Solutions</Link>
-        <Link href="#" className="text-muted-foreground hover:text-foreground">Pricing</Link>
         <Link href="/teams" className="text-muted-foreground hover:text-foreground">Teams</Link>
         <Link href="/docs" className="text-muted-foreground hover:text-foreground">Docs</Link>
       </nav>
     </div>
     <div className="hidden items-center gap-4 lg:flex">
-      <Button size="sm" className="bg-primary/10 text-primary hover:bg-primary/20" onClick={() => window.location.href = '/signup'}>
-        Sign Up
+      <Button size="sm" className="bg-primary/10 text-primary hover:bg-primary/20" onClick={() => window.open('https://www.dataction.co/contact-us', '_blank')}>
+        Contact Us
       </Button>
     </div>
     <div className="lg:hidden">
@@ -70,11 +68,9 @@ const Header = () => (
         <DropdownMenuContent align="end">
           <DropdownMenuItem onClick={() => window.location.href = '/'}>Home</DropdownMenuItem>
           <DropdownMenuItem onClick={() => window.location.href = '/platform'}>Platform</DropdownMenuItem>
-          <DropdownMenuItem>Solutions</DropdownMenuItem>
-          <DropdownMenuItem>Pricing</DropdownMenuItem>
           <DropdownMenuItem onClick={() => window.location.href = '/teams'}>Teams</DropdownMenuItem>
           <DropdownMenuItem onClick={() => window.location.href = '/docs'}>Docs</DropdownMenuItem>
-          <DropdownMenuItem onClick={() => window.location.href = '/signup'}>Sign Up</DropdownMenuItem>
+          <DropdownMenuItem onClick={() => window.open('https://www.dataction.co/contact-us', '_blank')}>Contact Us</DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
     </div>

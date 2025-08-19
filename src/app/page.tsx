@@ -18,15 +18,13 @@ const Header = () => (
       <nav className="hidden items-center gap-6 text-sm font-medium lg:flex ml-8">
         <a href="/" className="text-muted-foreground hover:text-foreground">Home</a>
         <a href="/platform" className="text-muted-foreground hover:text-foreground">Platform</a>
-        <a href="#" className="text-muted-foreground hover:text-foreground">Solutions</a>
-        <a href="#" className="text-muted-foreground hover:text-foreground">Pricing</a>
         <a href="/teams" className="text-muted-foreground hover:text-foreground">Teams</a>
         <a href="/docs" className="text-muted-foreground hover:text-foreground">Docs</a>
       </nav>
     </div>
     <div className="hidden items-center gap-4 lg:flex">
-      <Button size="sm" className="bg-primary/10 text-primary hover:bg-primary/20" onClick={() => window.location.href = '/signup'}>
-        Sign Up
+      <Button size="sm" className="bg-primary/10 text-primary hover:bg-primary/20" onClick={() => window.open('https://www.dataction.co/contact-us', '_blank')}>
+        Contact Us
       </Button>
     </div>
     <div className="lg:hidden">
@@ -39,11 +37,9 @@ const Header = () => (
         <DropdownMenuContent align="end">
           <DropdownMenuItem onClick={() => window.location.href = '/'}>Home</DropdownMenuItem>
           <DropdownMenuItem onClick={() => window.location.href = '/platform'}>Platform</DropdownMenuItem>
-          <DropdownMenuItem>Solutions</DropdownMenuItem>
-          <DropdownMenuItem>Pricing</DropdownMenuItem>
           <DropdownMenuItem onClick={() => window.location.href = '/teams'}>Teams</DropdownMenuItem>
           <DropdownMenuItem onClick={() => window.location.href = '/docs'}>Docs</DropdownMenuItem>
-          <DropdownMenuItem onClick={() => window.location.href = '/signup'}>Sign Up</DropdownMenuItem>
+          <DropdownMenuItem onClick={() => window.open('https://www.dataction.co/contact-us', '_blank')}>Contact Us</DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
     </div>
@@ -58,7 +54,7 @@ const Footer = () => (
           <img src="https://cdn.prod.website-files.com/66d705faac628063be399fde/66dd39e12f6ed23bce7b7321_DataAction-%20Green.svg" alt="DataAction Logo" className="h-8 w-auto" />
           <span className="text-xs text-emerald-500 self-end mt-1 font-bold">mini beast</span>
         </a>
-        <p className="mt-4 text-sm text-muted-foreground">©2008-24 Mini Beast, Inc. All rights reserved.</p>
+        <p className="mt-4 text-sm text-muted-foreground">©2025 Mini Beast, Inc. All rights reserved.</p>
       </div>
       <div>
         <h4 className="font-semibold">Products</h4>
