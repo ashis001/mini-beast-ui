@@ -1,3 +1,5 @@
+'use client';
+
 import { ArrowRight, BarChart, Bot, BrainCircuit, Bug, Cable, Database, GanttChart, Gem, Globe, HeartPulse, LogIn, Menu, Monitor, Search, Shield, Siren, SlidersHorizontal, Smartphone, Users, Wind, Zap, ArrowRightLeft, ShieldCheck, GitCompareArrows, Code, Server, Layers, Eye, Activity, CheckCircle, Star } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -9,25 +11,20 @@ import Image from 'next/image';
 const Header = () => (
   <header className="fixed top-0 left-0 right-0 z-50 flex h-16 items-center justify-between bg-background/80 px-4 backdrop-blur-sm md:px-8">
     <div className="flex items-center gap-4">
-      <a href="#" className="flex items-center gap-2">
-        <Bug className="h-8 w-8 text-primary" />
-        <span className="text-xl font-bold text-foreground">mini beast</span>
+      <a href="#" className="flex flex-col items-start">
+        <img src="https://cdn.prod.website-files.com/66d705faac628063be399fde/66dd39e12f6ed23bce7b7321_DataAction-%20Green.svg" alt="DataAction Logo" className="h-8 w-auto" />
+        <span className="text-xs text-emerald-500 self-end mt-1 font-bold">mini beast</span>
       </a>
-      <nav className="hidden items-center gap-6 text-sm font-medium lg:flex">
+      <nav className="hidden items-center gap-6 text-sm font-medium lg:flex ml-8">
         <a href="#" className="text-muted-foreground hover:text-foreground">Platform</a>
         <a href="#" className="text-muted-foreground hover:text-foreground">Solutions</a>
         <a href="#" className="text-muted-foreground hover:text-foreground">Pricing</a>
+        <a href="/teams" className="text-muted-foreground hover:text-foreground">Teams</a>
         <a href="#" className="text-muted-foreground hover:text-foreground">Docs</a>
       </nav>
     </div>
     <div className="hidden items-center gap-4 lg:flex">
-      <Button variant="ghost" size="sm">
-        <Search className="mr-2" /> Search
-      </Button>
-      <Button variant="ghost" size="sm">
-        <LogIn className="mr-2" /> Log In
-      </Button>
-      <Button size="sm" className="bg-primary/10 text-primary hover:bg-primary/20">
+      <Button size="sm" className="bg-primary/10 text-primary hover:bg-primary/20" onClick={() => window.location.href = '/signup'}>
         Sign Up
       </Button>
     </div>
@@ -42,10 +39,9 @@ const Header = () => (
           <DropdownMenuItem>Platform</DropdownMenuItem>
           <DropdownMenuItem>Solutions</DropdownMenuItem>
           <DropdownMenuItem>Pricing</DropdownMenuItem>
+          <DropdownMenuItem onClick={() => window.location.href = '/teams'}>Teams</DropdownMenuItem>
           <DropdownMenuItem>Docs</DropdownMenuItem>
-          <DropdownMenuItem>Search</DropdownMenuItem>
-          <DropdownMenuItem>Log In</DropdownMenuItem>
-          <DropdownMenuItem>Sign Up</DropdownMenuItem>
+          <DropdownMenuItem onClick={() => window.location.href = '/signup'}>Sign Up</DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
     </div>
@@ -56,11 +52,11 @@ const Footer = () => (
   <footer className="w-full bg-card text-card-foreground">
     <div className="container mx-auto grid grid-cols-2 gap-8 px-4 py-12 md:grid-cols-5 md:px-8">
       <div className="col-span-2 md:col-span-1">
-        <a href="#" className="flex items-center gap-2">
-          <Bug className="h-8 w-8 text-primary" />
-          <span className="text-xl font-bold">mini beast</span>
+        <a href="#" className="flex flex-col items-start">
+          <img src="https://cdn.prod.website-files.com/66d705faac628063be399fde/66dd39e12f6ed23bce7b7321_DataAction-%20Green.svg" alt="DataAction Logo" className="h-8 w-auto" />
+          <span className="text-xs text-emerald-500 self-end mt-1 font-bold">mini beast</span>
         </a>
-        <p className="mt-4 text-sm text-muted-foreground">©2008-24 mini beast, Inc. All rights reserved.</p>
+        <p className="mt-4 text-sm text-muted-foreground">©2008-24 Mini Beast, Inc. All rights reserved.</p>
       </div>
       <div>
         <h4 className="font-semibold">Products</h4>
@@ -100,11 +96,11 @@ const Footer = () => (
 
 
 const integrations = [
+  { icon: Gem, title: 'Snowflake', description: 'Cloud data warehouse integration' },
   { icon: Database, title: 'PostgreSQL', description: 'Seamless data migration from PostgreSQL' },
   { icon: Server, title: 'Oracle', description: 'Enterprise-grade Oracle data transformation' },
   { icon: BarChart, title: 'MySQL', description: 'MySQL to data warehouse migration' },
-  { icon: Gem, title: 'Snowflake', description: 'Cloud data warehouse integration' },
-  { icon: Cable, title: 'MongoDB', description: 'NoSQL to relational data migration' },
+  { icon: Cable, title: 'SQL', description: 'SQL to relational data migration' },
   { icon: Zap, title: 'BigQuery', description: 'Google BigQuery data pipeline integration' },
 ];
 
@@ -169,17 +165,17 @@ export default function Home() {
           </div>
           <div className="relative z-30 animate-fade-in">
             <h1 className="text-4xl font-bold tracking-tight text-white md:text-6xl lg:text-7xl">
-              Next-Gen Data Operations
+              Next-Gen Intuitive Data Tool
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg text-slate-300">
-              Complete data migration, monitoring, and security solutions to maximize business uptime and drive excellence in the AI era.
+              A Smart AI Secured Data tool that automates migration, reconciliation and testing to minimize human intervention and maximize efficiency
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-              <Button size="lg" className="w-full sm:w-auto bg-emerald-500 hover:bg-emerald-600 text-white border-0 px-8 py-3 text-lg font-semibold">
-                Get Started Free
+              <Button size="lg" className="w-full sm:w-auto bg-emerald-500 hover:bg-emerald-600 text-white border-0 px-8 py-3 text-lg font-semibold" onClick={() => window.open('https://www.dataction.co/contact-us', '_blank')}>
+                Start now for <span className="font-bold">FREE</span> <ArrowRight />
               </Button>
-              <Button size="lg" variant="outline" className="w-full sm:w-auto border-emerald-500 text-emerald-400 hover:bg-emerald-500/10 px-8 py-3 text-lg">
-                Watch Demo
+              <Button size="lg" variant="outline" className="w-full sm:w-auto border-emerald-500 text-emerald-400 hover:bg-emerald-500/10 px-8 py-3 text-lg" onClick={() => window.open('https://www.dataction.co/contact-us', '_blank')}>
+                Book a Demo
               </Button>
             </div>
           </div>
@@ -188,7 +184,7 @@ export default function Home() {
         <section className="w-full bg-card py-16 md:py-24">
             <div className="container mx-auto px-4 md:px-8">
                 <div className="text-center">
-                    <h2 className="text-3xl font-bold md:text-4xl">50+ data source integrations including AI-powered mapping</h2>
+                    <h2 className="text-3xl font-bold md:text-4xl">Seamless integration with 50+ data sources and Get up to 5x faster data migration with Mini Beast</h2>
                     <p className="mt-4 max-w-3xl mx-auto text-muted-foreground">
                         Start now for free. Connect to any data source and migrate with intelligent schema mapping in just a few clicks.
                     </p>
@@ -207,88 +203,19 @@ export default function Home() {
                             </CardHeader>
                             <CardContent>
                                 <p className="text-center text-muted-foreground">{integration.description}</p>
-                                <div className="mt-4 text-center">
-                                    <Button variant="outline" size="sm">
-                                        Install
-                                    </Button>
-                                </div>
                             </CardContent>
                         </Card>
                     ))}
                 </div>
-                <div className="text-center mt-12">
-                    <Button variant="outline">
-                        View All Integrations <ArrowRight />
-                    </Button>
-                </div>
             </div>
         </section>
 
-        <section className="w-full bg-background py-16 md:py-24">
-            <div className="container mx-auto px-4 md:px-8">
-                <div className="text-center">
-                    <h2 className="text-3xl font-bold md:text-4xl">Get up to 5x faster data migration with mini beast</h2>
-                    <p className="mt-4 max-w-3xl mx-auto text-muted-foreground">
-                        Only pay for data volume processed. No hidden fees, no tool licensing costs. Actual usage-based pricing with no penalties.
-                    </p>
-                </div>
-                <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-                    <Card className="bg-card border-border/50 p-6">
-                        <div className="text-center">
-                            <h3 className="text-lg font-semibold mb-2">Enterprise</h3>
-                            <p className="text-2xl font-bold text-primary mb-4">Custom Pricing</p>
-                            <ul className="text-sm text-muted-foreground space-y-2">
-                                <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-500" /> Unlimited data volume</li>
-                                <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-500" /> Advanced reconciliation</li>
-                                <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-500" /> 24/7 migration support</li>
-                            </ul>
-                        </div>
-                    </Card>
-                    <Card className="bg-card border-border/50 p-6">
-                        <div className="text-center">
-                            <h3 className="text-lg font-semibold mb-2">Professional</h3>
-                            <p className="text-2xl font-bold text-primary mb-4">$199/month</p>
-                            <ul className="text-sm text-muted-foreground space-y-2">
-                                <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-500" /> 1TB data processing</li>
-                                <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-500" /> Advanced validation rules</li>
-                                <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-500" /> Priority support</li>
-                            </ul>
-                        </div>
-                    </Card>
-                    <Card className="bg-card border-border/50 p-6">
-                        <div className="text-center">
-                            <h3 className="text-lg font-semibold mb-2">Starter</h3>
-                            <p className="text-2xl font-bold text-primary mb-4">$49/month</p>
-                            <ul className="text-sm text-muted-foreground space-y-2">
-                                <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-500" /> 100GB data processing</li>
-                                <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-500" /> Basic validation</li>
-                                <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-500" /> Email support</li>
-                            </ul>
-                        </div>
-                    </Card>
-                    <Card className="bg-primary/5 border-primary/20 p-6">
-                        <div className="text-center">
-                            <div className="flex items-center justify-center gap-1 mb-2">
-                                <Star className="h-4 w-4 text-primary fill-current" />
-                                <h3 className="text-lg font-semibold">Free Tier</h3>
-                            </div>
-                            <p className="text-2xl font-bold text-primary mb-4">$0/month</p>
-                            <ul className="text-sm text-muted-foreground space-y-2">
-                                <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-500" /> 1GB data processing</li>
-                                <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-500" /> Basic migration tools</li>
-                                <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-500" /> Community support</li>
-                            </ul>
-                        </div>
-                    </Card>
-                </div>
-            </div>
-        </section>
 
 
         <section className="w-full bg-card py-16 md:py-24">
           <div className="container mx-auto px-4 md:px-8">
             <div className="text-center">
-              <h2 className="text-3xl font-bold md:text-4xl">The world's best data teams run on mini beast</h2>
+              <h2 className="text-3xl font-bold md:text-4xl">The world's best data teams run on Mini Beast</h2>
               <p className="mx-auto mt-4 max-w-3xl text-muted-foreground">
                 Trusted by thousands of data engineers to migrate, validate, and reconcile critical business data.
               </p>
@@ -365,10 +292,10 @@ export default function Home() {
                         Sign up for free, no credit card required. Start migrating your data with intelligent mapping and validation tools.
                     </p>
                     <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-                        <Button size="lg" className="w-full sm:w-auto bg-emerald-500 hover:bg-emerald-600 text-white border-0 px-8 py-3 text-lg font-semibold">
+                        <Button size="lg" className="w-full sm:w-auto bg-emerald-500 hover:bg-emerald-600 text-white border-0 px-8 py-3 text-lg font-semibold" onClick={() => window.open('https://www.dataction.co/contact-us', '_blank')}>
                             Start now for free <ArrowRight />
                         </Button>
-                        <Button size="lg" variant="outline" className="w-full sm:w-auto border-emerald-500 text-emerald-600 hover:bg-emerald-500/10 px-8 py-3 text-lg">
+                        <Button size="lg" variant="outline" className="w-full sm:w-auto border-emerald-500 text-emerald-600 hover:bg-emerald-500/10 px-8 py-3 text-lg" onClick={() => window.open('https://www.dataction.co/contact-us', '_blank')}>
                             Request a demo
                         </Button>
                     </div>

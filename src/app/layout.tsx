@@ -2,8 +2,11 @@ import type {Metadata} from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'mini beast',
-  description: 'All your data, one platform',
+  title: "Mini Beast - Next-Gen Intuitive Data Tool",
+  description: "A Smart AI Secured Data tool that automates migration, reconciliation and testing to minimize human intervention and maximize efficiency.",
+  icons: {
+    icon: "https://cdn.prod.website-files.com/66d705faac628063be399fde/66dd39e12f6ed23bce7b7321_DataAction-%20Green.svg",
+  },
 };
 
 export default function RootLayout({

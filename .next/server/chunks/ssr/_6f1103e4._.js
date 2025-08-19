@@ -13,8 +13,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 const metadata = {
-    title: 'mini beast',
-    description: 'All your data, one platform'
+    title: "Mini Beast - Next-Gen Intuitive Data Tool",
+    description: "A Smart AI Secured Data tool that automates migration, reconciliation and testing to minimize human intervention and maximize efficiency.",
+    icons: {
+        icon: "https://cdn.prod.website-files.com/66d705faac628063be399fde/66dd39e12f6ed23bce7b7321_DataAction-%20Green.svg"
+    }
 };
 function RootLayout({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
@@ -28,7 +31,7 @@ function RootLayout({ children }) {
                         href: "https://fonts.googleapis.com"
                     }, void 0, false, {
                         fileName: "[project]/src/app/layout.tsx",
-                        lineNumber: 17,
+                        lineNumber: 20,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
@@ -37,7 +40,7 @@ function RootLayout({ children }) {
                         crossOrigin: "anonymous"
                     }, void 0, false, {
                         fileName: "[project]/src/app/layout.tsx",
-                        lineNumber: 18,
+                        lineNumber: 21,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
@@ -45,13 +48,13 @@ function RootLayout({ children }) {
                         rel: "stylesheet"
                     }, void 0, false, {
                         fileName: "[project]/src/app/layout.tsx",
-                        lineNumber: 19,
+                        lineNumber: 22,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/layout.tsx",
-                lineNumber: 16,
+                lineNumber: 19,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
@@ -59,13 +62,13 @@ function RootLayout({ children }) {
                 children: children
             }, void 0, false, {
                 fileName: "[project]/src/app/layout.tsx",
-                lineNumber: 21,
+                lineNumber: 24,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/layout.tsx",
-        lineNumber: 15,
+        lineNumber: 18,
         columnNumber: 5
     }, this);
 }
