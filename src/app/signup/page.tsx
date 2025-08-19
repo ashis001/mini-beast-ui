@@ -2,7 +2,8 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Bug, ArrowLeft, Mail, Phone } from 'lucide-react';
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
+import { Bug, ArrowLeft, Mail, Phone, Menu } from 'lucide-react';
 import Link from 'next/link';
 
 const Header = () => (
@@ -10,15 +11,39 @@ const Header = () => (
     <div className="flex items-center gap-4">
       <Link href="/" className="flex flex-col items-start">
         <img src="https://cdn.prod.website-files.com/66d705faac628063be399fde/66dd39e12f6ed23bce7b7321_DataAction-%20Green.svg" alt="DataAction Logo" className="h-8 w-auto" />
-        <span className="text-xs text-emerald-500 self-end mt-1 font-bold">Mini Beast</span>
+        <span className="text-xs text-emerald-500 self-end mt-1 font-bold">mini beast</span>
       </Link>
+      <nav className="hidden items-center gap-6 text-sm font-medium lg:flex ml-8">
+        <Link href="/" className="text-muted-foreground hover:text-foreground">Home</Link>
+        <Link href="/platform" className="text-muted-foreground hover:text-foreground">Platform</Link>
+        <Link href="#" className="text-muted-foreground hover:text-foreground">Solutions</Link>
+        <Link href="#" className="text-muted-foreground hover:text-foreground">Pricing</Link>
+        <Link href="/teams" className="text-muted-foreground hover:text-foreground">Teams</Link>
+        <Link href="/docs" className="text-muted-foreground hover:text-foreground">Docs</Link>
+      </nav>
     </div>
-    <div className="flex items-center gap-4">
-      <Link href="/">
-        <Button variant="ghost" size="sm">
-          <ArrowLeft className="mr-2 h-4 w-4" /> Back to Home
-        </Button>
-      </Link>
+    <div className="hidden items-center gap-4 lg:flex">
+      <Button size="sm" className="bg-primary/10 text-primary hover:bg-primary/20" onClick={() => window.location.href = '/signup'}>
+        Sign Up
+      </Button>
+    </div>
+    <div className="lg:hidden">
+      <DropdownMenu>
+        <DropdownMenuTrigger asChild>
+          <Button variant="ghost" size="icon">
+            <Menu />
+          </Button>
+        </DropdownMenuTrigger>
+        <DropdownMenuContent align="end">
+          <DropdownMenuItem onClick={() => window.location.href = '/'}>Home</DropdownMenuItem>
+          <DropdownMenuItem onClick={() => window.location.href = '/platform'}>Platform</DropdownMenuItem>
+          <DropdownMenuItem>Solutions</DropdownMenuItem>
+          <DropdownMenuItem>Pricing</DropdownMenuItem>
+          <DropdownMenuItem onClick={() => window.location.href = '/teams'}>Teams</DropdownMenuItem>
+          <DropdownMenuItem onClick={() => window.location.href = '/docs'}>Docs</DropdownMenuItem>
+          <DropdownMenuItem onClick={() => window.location.href = '/signup'}>Sign Up</DropdownMenuItem>
+        </DropdownMenuContent>
+      </DropdownMenu>
     </div>
   </header>
 );

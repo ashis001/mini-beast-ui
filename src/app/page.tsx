@@ -16,6 +16,7 @@ const Header = () => (
         <span className="text-xs text-emerald-500 self-end mt-1 font-bold">mini beast</span>
       </a>
       <nav className="hidden items-center gap-6 text-sm font-medium lg:flex ml-8">
+        <a href="/" className="text-muted-foreground hover:text-foreground">Home</a>
         <a href="/platform" className="text-muted-foreground hover:text-foreground">Platform</a>
         <a href="#" className="text-muted-foreground hover:text-foreground">Solutions</a>
         <a href="#" className="text-muted-foreground hover:text-foreground">Pricing</a>
@@ -36,6 +37,7 @@ const Header = () => (
           </Button>
         </DropdownMenuTrigger>
         <DropdownMenuContent align="end">
+          <DropdownMenuItem onClick={() => window.location.href = '/'}>Home</DropdownMenuItem>
           <DropdownMenuItem onClick={() => window.location.href = '/platform'}>Platform</DropdownMenuItem>
           <DropdownMenuItem>Solutions</DropdownMenuItem>
           <DropdownMenuItem>Pricing</DropdownMenuItem>
