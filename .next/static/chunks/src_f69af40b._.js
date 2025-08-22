@@ -533,17 +533,30 @@ const Header = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "hidden items-center gap-4 lg:flex",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                    size: "sm",
-                    className: "bg-primary/10 text-primary hover:bg-primary/20",
-                    onClick: ()=>window.open('https://www.dataction.co/contact-us', '_blank'),
-                    children: "Contact Us"
-                }, void 0, false, {
-                    fileName: "[project]/src/app/platform/page.tsx",
-                    lineNumber: 24,
-                    columnNumber: 7
-                }, this)
-            }, void 0, false, {
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
+                        size: "sm",
+                        variant: "outline",
+                        className: "border-emerald-500 text-emerald-400 hover:bg-emerald-500/10",
+                        onClick: ()=>window.location.href = '/demo',
+                        children: "Book Demo"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/platform/page.tsx",
+                        lineNumber: 24,
+                        columnNumber: 7
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
+                        size: "sm",
+                        className: "bg-primary/10 text-primary hover:bg-primary/20",
+                        onClick: ()=>window.location.href = '/contact',
+                        children: "Contact Us"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/platform/page.tsx",
+                        lineNumber: 27,
+                        columnNumber: 7
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/src/app/platform/page.tsx",
                 lineNumber: 23,
                 columnNumber: 5
@@ -559,17 +572,17 @@ const Header = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$
                                 size: "icon",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {}, void 0, false, {
                                     fileName: "[project]/src/app/platform/page.tsx",
-                                    lineNumber: 32,
+                                    lineNumber: 35,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/platform/page.tsx",
-                                lineNumber: 31,
+                                lineNumber: 34,
                                 columnNumber: 11
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/platform/page.tsx",
-                            lineNumber: 30,
+                            lineNumber: 33,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$dropdown$2d$menu$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DropdownMenuContent"], {
@@ -580,7 +593,7 @@ const Header = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$
                                     children: "Home"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/platform/page.tsx",
-                                    lineNumber: 36,
+                                    lineNumber: 39,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$dropdown$2d$menu$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DropdownMenuItem"], {
@@ -588,7 +601,7 @@ const Header = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$
                                     children: "Platform"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/platform/page.tsx",
-                                    lineNumber: 37,
+                                    lineNumber: 40,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$dropdown$2d$menu$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DropdownMenuItem"], {
@@ -596,7 +609,7 @@ const Header = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$
                                     children: "Teams"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/platform/page.tsx",
-                                    lineNumber: 38,
+                                    lineNumber: 41,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$dropdown$2d$menu$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DropdownMenuItem"], {
@@ -604,32 +617,40 @@ const Header = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$
                                     children: "Docs"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/platform/page.tsx",
-                                    lineNumber: 39,
+                                    lineNumber: 42,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$dropdown$2d$menu$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DropdownMenuItem"], {
-                                    onClick: ()=>window.open('https://www.dataction.co/contact-us', '_blank'),
+                                    onClick: ()=>window.location.href = '/demo',
+                                    children: "Book Demo"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/platform/page.tsx",
+                                    lineNumber: 43,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$dropdown$2d$menu$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DropdownMenuItem"], {
+                                    onClick: ()=>window.location.href = '/contact',
                                     children: "Contact Us"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/platform/page.tsx",
-                                    lineNumber: 40,
+                                    lineNumber: 44,
                                     columnNumber: 11
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/platform/page.tsx",
-                            lineNumber: 35,
+                            lineNumber: 38,
                             columnNumber: 9
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/platform/page.tsx",
-                    lineNumber: 29,
+                    lineNumber: 32,
                     columnNumber: 7
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/platform/page.tsx",
-                lineNumber: 28,
+                lineNumber: 31,
                 columnNumber: 5
             }, this)
         ]
@@ -724,7 +745,7 @@ function Platform() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Header, {}, void 0, false, {
                 fileName: "[project]/src/app/platform/page.tsx",
-                lineNumber: 107,
+                lineNumber: 111,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -742,7 +763,7 @@ function Platform() {
                                         children: "Built on AWS Cloud"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/platform/page.tsx",
-                                        lineNumber: 114,
+                                        lineNumber: 118,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -750,23 +771,23 @@ function Platform() {
                                         children: "Mini Beast leverages enterprise-grade AWS services to deliver secure, scalable, and reliable data migration solutions."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/platform/page.tsx",
-                                        lineNumber: 117,
+                                        lineNumber: 121,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/platform/page.tsx",
-                                lineNumber: 113,
+                                lineNumber: 117,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/platform/page.tsx",
-                            lineNumber: 112,
+                            lineNumber: 116,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/platform/page.tsx",
-                        lineNumber: 111,
+                        lineNumber: 115,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -782,7 +803,7 @@ function Platform() {
                                             children: "Powered by AWS Services"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/platform/page.tsx",
-                                            lineNumber: 128,
+                                            lineNumber: 132,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -790,13 +811,13 @@ function Platform() {
                                             children: "Our platform utilizes the most advanced AWS services to ensure maximum performance, security, and scalability."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/platform/page.tsx",
-                                            lineNumber: 129,
+                                            lineNumber: 133,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/platform/page.tsx",
-                                    lineNumber: 127,
+                                    lineNumber: 131,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -815,12 +836,12 @@ function Platform() {
                                                                         size: 24
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/platform/page.tsx",
-                                                                        lineNumber: 140,
+                                                                        lineNumber: 144,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/platform/page.tsx",
-                                                                    lineNumber: 139,
+                                                                    lineNumber: 143,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -829,18 +850,18 @@ function Platform() {
                                                                         children: service.title
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/platform/page.tsx",
-                                                                        lineNumber: 143,
+                                                                        lineNumber: 147,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/platform/page.tsx",
-                                                                    lineNumber: 142,
+                                                                    lineNumber: 146,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/platform/page.tsx",
-                                                            lineNumber: 138,
+                                                            lineNumber: 142,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardDescription"], {
@@ -848,13 +869,13 @@ function Platform() {
                                                             children: service.description
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/platform/page.tsx",
-                                                            lineNumber: 146,
+                                                            lineNumber: 150,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/platform/page.tsx",
-                                                    lineNumber: 137,
+                                                    lineNumber: 141,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -867,46 +888,46 @@ function Platform() {
                                                                         className: "h-1.5 w-1.5 rounded-full bg-emerald-500"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/platform/page.tsx",
-                                                                        lineNumber: 154,
+                                                                        lineNumber: 158,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     feature
                                                                 ]
                                                             }, idx, true, {
                                                                 fileName: "[project]/src/app/platform/page.tsx",
-                                                                lineNumber: 153,
+                                                                lineNumber: 157,
                                                                 columnNumber: 25
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/platform/page.tsx",
-                                                        lineNumber: 151,
+                                                        lineNumber: 155,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/platform/page.tsx",
-                                                    lineNumber: 150,
+                                                    lineNumber: 154,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/src/app/platform/page.tsx",
-                                            lineNumber: 136,
+                                            lineNumber: 140,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/platform/page.tsx",
-                                    lineNumber: 134,
+                                    lineNumber: 138,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/platform/page.tsx",
-                            lineNumber: 126,
+                            lineNumber: 130,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/platform/page.tsx",
-                        lineNumber: 125,
+                        lineNumber: 129,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -922,7 +943,7 @@ function Platform() {
                                             children: "Architecture Excellence"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/platform/page.tsx",
-                                            lineNumber: 170,
+                                            lineNumber: 174,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -930,13 +951,13 @@ function Platform() {
                                             children: "Built with modern cloud-native principles for enterprise-grade reliability."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/platform/page.tsx",
-                                            lineNumber: 171,
+                                            lineNumber: 175,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/platform/page.tsx",
-                                    lineNumber: 169,
+                                    lineNumber: 173,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -953,12 +974,12 @@ function Platform() {
                                                                 size: 32
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/platform/page.tsx",
-                                                                lineNumber: 181,
+                                                                lineNumber: 185,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/platform/page.tsx",
-                                                            lineNumber: 180,
+                                                            lineNumber: 184,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardTitle"], {
@@ -966,13 +987,13 @@ function Platform() {
                                                             children: feature.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/platform/page.tsx",
-                                                            lineNumber: 183,
+                                                            lineNumber: 187,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/platform/page.tsx",
-                                                    lineNumber: 179,
+                                                    lineNumber: 183,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -981,34 +1002,34 @@ function Platform() {
                                                         children: feature.description
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/platform/page.tsx",
-                                                        lineNumber: 186,
+                                                        lineNumber: 190,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/platform/page.tsx",
-                                                    lineNumber: 185,
+                                                    lineNumber: 189,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/src/app/platform/page.tsx",
-                                            lineNumber: 178,
+                                            lineNumber: 182,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/platform/page.tsx",
-                                    lineNumber: 176,
+                                    lineNumber: 180,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/platform/page.tsx",
-                            lineNumber: 168,
+                            lineNumber: 172,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/platform/page.tsx",
-                        lineNumber: 167,
+                        lineNumber: 171,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1023,12 +1044,12 @@ function Platform() {
                                         children: "Technical Specifications"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/platform/page.tsx",
-                                        lineNumber: 198,
+                                        lineNumber: 202,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/platform/page.tsx",
-                                    lineNumber: 197,
+                                    lineNumber: 201,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1042,12 +1063,12 @@ function Platform() {
                                                         children: "Compute & Processing"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/platform/page.tsx",
-                                                        lineNumber: 204,
+                                                        lineNumber: 208,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/platform/page.tsx",
-                                                    lineNumber: 203,
+                                                    lineNumber: 207,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1060,36 +1081,12 @@ function Platform() {
                                                                     children: "AWS Lambda Functions"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/platform/page.tsx",
-                                                                    lineNumber: 208,
-                                                                    columnNumber: 21
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                    className: "text-sm text-muted-foreground",
-                                                                    children: "Event-driven data processing with automatic scaling"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/app/platform/page.tsx",
-                                                                    lineNumber: 209,
-                                                                    columnNumber: 21
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/src/app/platform/page.tsx",
-                                                            lineNumber: 207,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                                                    className: "font-semibold text-emerald-500",
-                                                                    children: "AWS Fargate"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/app/platform/page.tsx",
                                                                     lineNumber: 212,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                     className: "text-sm text-muted-foreground",
-                                                                    children: "Containerized workloads for complex data transformations"
+                                                                    children: "Event-driven data processing with automatic scaling"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/platform/page.tsx",
                                                                     lineNumber: 213,
@@ -1105,7 +1102,7 @@ function Platform() {
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                                                                     className: "font-semibold text-emerald-500",
-                                                                    children: "Auto Scaling"
+                                                                    children: "AWS Fargate"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/platform/page.tsx",
                                                                     lineNumber: 216,
@@ -1113,7 +1110,7 @@ function Platform() {
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                     className: "text-sm text-muted-foreground",
-                                                                    children: "Dynamic resource allocation based on workload demands"
+                                                                    children: "Containerized workloads for complex data transformations"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/platform/page.tsx",
                                                                     lineNumber: 217,
@@ -1124,17 +1121,41 @@ function Platform() {
                                                             fileName: "[project]/src/app/platform/page.tsx",
                                                             lineNumber: 215,
                                                             columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                                    className: "font-semibold text-emerald-500",
+                                                                    children: "Auto Scaling"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/app/platform/page.tsx",
+                                                                    lineNumber: 220,
+                                                                    columnNumber: 21
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                    className: "text-sm text-muted-foreground",
+                                                                    children: "Dynamic resource allocation based on workload demands"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/app/platform/page.tsx",
+                                                                    lineNumber: 221,
+                                                                    columnNumber: 21
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/src/app/platform/page.tsx",
+                                                            lineNumber: 219,
+                                                            columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/platform/page.tsx",
-                                                    lineNumber: 206,
+                                                    lineNumber: 210,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/platform/page.tsx",
-                                            lineNumber: 202,
+                                            lineNumber: 206,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -1145,12 +1166,12 @@ function Platform() {
                                                         children: "Data & Storage"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/platform/page.tsx",
-                                                        lineNumber: 224,
+                                                        lineNumber: 228,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/platform/page.tsx",
-                                                    lineNumber: 223,
+                                                    lineNumber: 227,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1163,36 +1184,12 @@ function Platform() {
                                                                     children: "MongoDB Atlas"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/platform/page.tsx",
-                                                                    lineNumber: 228,
-                                                                    columnNumber: 21
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                    className: "text-sm text-muted-foreground",
-                                                                    children: "Managed NoSQL database with global clusters"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/app/platform/page.tsx",
-                                                                    lineNumber: 229,
-                                                                    columnNumber: 21
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/src/app/platform/page.tsx",
-                                                            lineNumber: 227,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                                                    className: "font-semibold text-emerald-500",
-                                                                    children: "Amazon Kinesis"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/app/platform/page.tsx",
                                                                     lineNumber: 232,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                     className: "text-sm text-muted-foreground",
-                                                                    children: "Real-time data streaming and processing"
+                                                                    children: "Managed NoSQL database with global clusters"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/platform/page.tsx",
                                                                     lineNumber: 233,
@@ -1208,7 +1205,7 @@ function Platform() {
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                                                                     className: "font-semibold text-emerald-500",
-                                                                    children: "Amazon S3"
+                                                                    children: "Amazon Kinesis"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/platform/page.tsx",
                                                                     lineNumber: 236,
@@ -1216,7 +1213,7 @@ function Platform() {
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                     className: "text-sm text-muted-foreground",
-                                                                    children: "Secure object storage for data lakes and backups"
+                                                                    children: "Real-time data streaming and processing"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/platform/page.tsx",
                                                                     lineNumber: 237,
@@ -1227,34 +1224,58 @@ function Platform() {
                                                             fileName: "[project]/src/app/platform/page.tsx",
                                                             lineNumber: 235,
                                                             columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                                    className: "font-semibold text-emerald-500",
+                                                                    children: "Amazon S3"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/app/platform/page.tsx",
+                                                                    lineNumber: 240,
+                                                                    columnNumber: 21
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                    className: "text-sm text-muted-foreground",
+                                                                    children: "Secure object storage for data lakes and backups"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/app/platform/page.tsx",
+                                                                    lineNumber: 241,
+                                                                    columnNumber: 21
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/src/app/platform/page.tsx",
+                                                            lineNumber: 239,
+                                                            columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/platform/page.tsx",
-                                                    lineNumber: 226,
+                                                    lineNumber: 230,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/platform/page.tsx",
-                                            lineNumber: 222,
+                                            lineNumber: 226,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/platform/page.tsx",
-                                    lineNumber: 201,
+                                    lineNumber: 205,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/platform/page.tsx",
-                            lineNumber: 196,
+                            lineNumber: 200,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/platform/page.tsx",
-                        lineNumber: 195,
+                        lineNumber: 199,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1269,7 +1290,7 @@ function Platform() {
                                         children: "Ready to Experience Our Platform?"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/platform/page.tsx",
-                                        lineNumber: 249,
+                                        lineNumber: 253,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1277,7 +1298,7 @@ function Platform() {
                                         children: "Get started with Mini Beast and leverage the power of AWS cloud infrastructure for your data migrations."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/platform/page.tsx",
-                                        lineNumber: 250,
+                                        lineNumber: 254,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1290,7 +1311,7 @@ function Platform() {
                                                 children: "Start Free Trial"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/platform/page.tsx",
-                                                lineNumber: 254,
+                                                lineNumber: 258,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -1301,41 +1322,41 @@ function Platform() {
                                                 children: "Contact Sales"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/platform/page.tsx",
-                                                lineNumber: 261,
+                                                lineNumber: 265,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/platform/page.tsx",
-                                        lineNumber: 253,
+                                        lineNumber: 257,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/platform/page.tsx",
-                                lineNumber: 248,
+                                lineNumber: 252,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/platform/page.tsx",
-                            lineNumber: 247,
+                            lineNumber: 251,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/platform/page.tsx",
-                        lineNumber: 246,
+                        lineNumber: 250,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/platform/page.tsx",
-                lineNumber: 109,
+                lineNumber: 113,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/platform/page.tsx",
-        lineNumber: 106,
+        lineNumber: 110,
         columnNumber: 5
     }, this);
 }

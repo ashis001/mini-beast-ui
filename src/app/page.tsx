@@ -23,6 +23,9 @@ const Header = () => (
       </nav>
     </div>
     <div className="hidden items-center gap-4 lg:flex">
+      <Button size="sm" variant="outline" className="border-emerald-500 text-emerald-400 hover:bg-emerald-500/10" onClick={() => window.location.href = '/demo'}>
+        Book Demo
+      </Button>
       <Button size="sm" className="bg-primary/10 text-primary hover:bg-primary/20" onClick={() => window.location.href = '/contact'}>
         Contact Us
       </Button>
@@ -39,6 +42,7 @@ const Header = () => (
           <DropdownMenuItem onClick={() => window.location.href = '/platform'}>Platform</DropdownMenuItem>
           <DropdownMenuItem onClick={() => window.location.href = '/teams'}>Teams</DropdownMenuItem>
           <DropdownMenuItem onClick={() => window.location.href = '/docs'}>Docs</DropdownMenuItem>
+          <DropdownMenuItem onClick={() => window.location.href = '/demo'}>Book Demo</DropdownMenuItem>
           <DropdownMenuItem onClick={() => window.location.href = '/contact'}>Contact Us</DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
@@ -138,6 +142,7 @@ const capabilities = [
     }
 ];
 
+
 export default function Home() {
   return (
     <div className="flex min-h-screen w-full flex-col items-center bg-background font-body text-foreground">
@@ -169,10 +174,10 @@ export default function Home() {
               A Smart Secured Data tool that automates migration, reconciliation and testing to minimize human intervention and maximize efficiency
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-              <Button size="lg" className="w-full sm:w-auto bg-emerald-500 hover:bg-emerald-600 text-white border-0 px-8 py-3 text-lg font-semibold" onClick={() => window.open('https://www.dataction.co/contact-us', '_blank')}>
+              <Button size="lg" className="w-full sm:w-auto bg-emerald-500 hover:bg-emerald-600 text-white border-0 px-8 py-3 text-lg font-semibold" onClick={() => (window.location.href = '/contact')}>
                 Start now for <span className="font-bold">FREE</span> <ArrowRight />
               </Button>
-              <Button size="lg" variant="outline" className="w-full sm:w-auto border-emerald-500 text-emerald-400 hover:bg-emerald-500/10 px-8 py-3 text-lg" onClick={() => window.open('https://www.dataction.co/contact-us', '_blank')}>
+              <Button size="lg" variant="outline" className="w-full sm:w-auto border-emerald-500 text-emerald-400 hover:bg-emerald-500/10 px-8 py-3 text-lg" onClick={() => (window.location.href = '/demo')}>
                 Book a Demo
               </Button>
             </div>
@@ -290,10 +295,10 @@ export default function Home() {
                         Sign up for free, no credit card required. Start migrating your data with intelligent mapping and validation tools.
                     </p>
                     <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-                        <Button size="lg" className="w-full sm:w-auto bg-emerald-500 hover:bg-emerald-600 text-white border-0 px-8 py-3 text-lg font-semibold" onClick={() => window.open('https://www.dataction.co/contact-us', '_blank')}>
+                        <Button size="lg" className="w-full sm:w-auto bg-emerald-500 hover:bg-emerald-600 text-white border-0 px-8 py-3 text-lg font-semibold" onClick={() => (window.location.href = '/contact')}>
                             Start now for free <ArrowRight />
                         </Button>
-                        <Button size="lg" variant="outline" className="w-full sm:w-auto border-emerald-500 text-emerald-600 hover:bg-emerald-500/10 px-8 py-3 text-lg" onClick={() => window.open('https://www.dataction.co/contact-us', '_blank')}>
+                        <Button size="lg" variant="outline" className="w-full sm:w-auto border-emerald-500 text-emerald-600 hover:bg-emerald-500/10 px-8 py-3 text-lg" onClick={() => (window.location.href = '/demo')}>
                             Request a demo
                         </Button>
                     </div>

@@ -21,6 +21,9 @@ const Header = () => (
       </nav>
     </div>
     <div className="hidden items-center gap-4 lg:flex">
+      <Button size="sm" variant="outline" className="border-emerald-500 text-emerald-400 hover:bg-emerald-500/10" onClick={() => window.location.href = '/demo'}>
+        Book Demo
+      </Button>
       <Button size="sm" className="bg-primary/10 text-primary hover:bg-primary/20" onClick={() => window.location.href = '/contact'}>
         Contact Us
       </Button>
@@ -37,6 +40,7 @@ const Header = () => (
           <DropdownMenuItem onClick={() => window.location.href = '/platform'}>Platform</DropdownMenuItem>
           <DropdownMenuItem onClick={() => window.location.href = '/teams'}>Teams</DropdownMenuItem>
           <DropdownMenuItem onClick={() => window.location.href = '/docs'}>Docs</DropdownMenuItem>
+          <DropdownMenuItem onClick={() => window.location.href = '/demo'}>Book Demo</DropdownMenuItem>
           <DropdownMenuItem onClick={() => window.location.href = '/contact'}>Contact Us</DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
